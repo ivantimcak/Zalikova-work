@@ -4,9 +4,6 @@ import matplotlib.pyplot as plt
 from abc import ABC, abstractmethod
 import streamlit as st
 
-# Встановлення стилю для графіків (використовуємо універсальний стиль)
-plt.style.use('ggplot')
-
 # 1. ООП: СУТНОСТІ ШКОЛИ
 #Абстрактний базовий клас(Абстракція)
 class Person(ABC):
@@ -488,4 +485,5 @@ def main():
 
 
 if __name__ == "__main__":
+
     main()
